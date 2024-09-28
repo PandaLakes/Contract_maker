@@ -11,16 +11,16 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 gemini = ChatGoogleGenerativeAI(model="gemini-pro",
                                 verbose=True,
                                 temperature=0.5,
-                                google_api_key="AIzaSyANgglqkPCxFu9Kp0x4zZXead4IDF0F48I")
+                                google_api_key="Your_API_KEY")
 
 llama = ChatGroq(
-    api_key="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",
+    api_key="Your_API_KEY",
     model="llama3-70b-8192",
     max_tokens=8192
 )
 
 llama3_1 = ChatGroq(
-    api_key="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",
+    api_key="Your_API_KEY",
     model="llama-3.1-70b-versatile",
     max_tokens=8000
 )
