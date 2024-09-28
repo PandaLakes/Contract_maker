@@ -1,0 +1,15 @@
+os
+pyyaml
+crewai
+langchain_groq
+contracter
+langchain_google_genai
+pandas
+numpy
+torch
+sentence-transformers
+spacy
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+google-api-python-client
