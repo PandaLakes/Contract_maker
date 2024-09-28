@@ -1,0 +1,13 @@
+email_extraction_task:
+  description: >
+    Extract relevant contract details from the provided email content.
+  expected_output: >
+    A comprehensive summary of the email, detailing all necessary information for the contract. This includes specifics about the parties, the scope of work, pricing, timelines, and any special conditions.
+  agent: Mail_Reader
+
+create_complete_contract_task:
+  description: >
+    Using the email summary provided by Mail_Reader and insights from the RAG model, create and write a complete contract.
+  expected_output: >
+    A fully written contract in a Google Doc, including title, offer, acceptance, awareness, consideration, capacity, legality, and review sections. The document should be free from placeholders, redundancies, and irrelevant content, and should be formatted professionally.
+  agent: Contract_Agent
