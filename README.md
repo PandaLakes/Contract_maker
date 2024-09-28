@@ -1,6 +1,7 @@
 # Contracter Crew
 
-Welcome to the Contracter Crew project.
+Welcome to the Contracter Crew project. A crew of ai agents collaborate with each other to build a full customized contract based on your input sent to your email.  
+For related project check https://github.com/PandaLakes/rag_contracts
 ## Installation
 
 Ensure you have Python >=3.10 <=3.13 installed on your system. This project uses [Poetry](https://python-poetry.org/) for dependency management and package handling, offering a seamless setup and execution experience.
